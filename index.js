@@ -100,6 +100,6 @@ function averageStartingPrice() {
     return (sum + price);
   },0);
   console.log('totalPrice::', totalPrice);
-  averagePrice = totalPrice / (priceArray.length);
+  averagePrice = Math.ceil(totalPrice / (priceArray.length));
   return averagePrice;
 }
