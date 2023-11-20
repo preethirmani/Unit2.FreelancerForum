@@ -1,0 +1,15 @@
+body{ 
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+ul {
+  float: left;
+  font-size: 20px;
+}
+
+ul li {
+  padding: 10px;
+  list-style: none;
+
+}
