@@ -1,15 +1,26 @@
 body{ 
-  background-color: aquamarine;
-  padding: 4% 20%;
+ 
+  padding: 1% 30%;
+}
+
+div {
+  margin-left: 35px;
+ 
 }
 
 ul {
   float: left;
-  font-size: 20px;
+  font-size: 20px; 
+  margin: 0px;
+ 
 }
 
-ul li {
-  padding: 10px;
+li {
   list-style: none;
+  padding: 2px;
+}
 
+h4 {
+  font-style: italic;
+  font-size: 18px;
 }
